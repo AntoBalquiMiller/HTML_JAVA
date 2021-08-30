@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Obligatoria 2</title>
+</head>
+<body>
+<h1 style="text-align: center; font-size: large;">Acceso al Sistema</h1>
+    <form action="datos.php">
+        <label for="nombre_id" style="text-align: center;">DNI: </label>
+        <input type="number"  placeholder="Escribe tu DNI" name="DNI" maxlength="9"  id="DNI_id" style="text-align: center;">
+        <BR></BR>
+        <label for="nombre_id" style="text-align: center;" >USUARIO: </label>
+        <input type="text"  name="usuario" maxlength="9"  id="user_id">
+        <BR></BR>
+        <label for="nombre_id" style="text-align: center;">CLAVE: </label>
+        <input type="password"  name="password" maxlength="9"  id="pass_id">
+        <BR></BR>
+        <input type="button" value="Ingresar">
+
+</body>
+</html>
